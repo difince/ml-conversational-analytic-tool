@@ -1,15 +1,13 @@
 # Copyright 2021 VMware, Inc.
 # SPDX-License-Identifier: Apache-2.0
 import argparse
-import os
-from pathlib import Path
 
 import pandas as pd
 
 import utils
 from commentAnalysis import CommentAnalyzer
 
-FILE_NAME_SUFFIX = "_annotated"
+FILE_NAME_SUFFIX = "annotated"
 
 
 class Featurizer:
